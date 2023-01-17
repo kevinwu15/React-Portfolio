@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import styled from 'styled-components';
 
 const Typing = () => {
 
