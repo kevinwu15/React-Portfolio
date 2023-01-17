@@ -37,7 +37,7 @@ const Stars = styled.div`
   background: linear-gradient(45deg, currentColor, transparent);
   border-radius: 50%;
   filter: drop-shadow(0 0 6px currentColor);
-  transform: translate3d(104em, 0, 0);
+  transform: translate3d(150em, 0, 0);
   -webkit-animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
           animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
 }
@@ -447,10 +447,6 @@ const Icon = styled.img`
   height: auto;
 `;
 
-const Text = styled.h1`
-  color: white;
-`;
-
 const Page = styled.div`
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 `;
@@ -512,7 +508,7 @@ const Hero = () => {
       </Sky>
       <OuterBox className="container">
         <HeroDiv className="container">
-          <Text>Hi, I'm Kevin Wu</Text>
+          <h1>Hi, I'm Kevin Wu</h1>
           <FlexDiv>
             <Typing />
             <PlaceholderDiv>|</PlaceholderDiv>

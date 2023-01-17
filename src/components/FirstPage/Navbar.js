@@ -1,4 +1,5 @@
 // import styled from 'styled-components';
+import './Navbar.css';
 
 const Navbar = () => {
 //   const GrowDiv = styled.div`
@@ -6,7 +7,7 @@ const Navbar = () => {
 //   `
 
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <button
           class="navbar-toggler"

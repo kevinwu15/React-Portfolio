@@ -1,0 +1,4 @@
+.navbar,
+.navbar-default {
+    background-image: radial-gradient(ellipse at bottom,#0c0d13 100%,#0d1d31 0%) !important; /* override background image gradient w/ flat color */
+}

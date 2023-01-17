@@ -3,9 +3,6 @@ import Typed from "typed.js";
 import styled from 'styled-components';
 
 const Typing = () => {
-  const TypedWords = styled.span`
-    color: white;
-  `
 
   const typeTarget = useRef(null);
 
@@ -22,7 +19,7 @@ const Typing = () => {
     };
   }, []);
 
-  return <TypedWords ref={typeTarget} />;
+  return <span ref={typeTarget} />;
 };
 
 export default Typing;
