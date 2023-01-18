@@ -37,7 +37,7 @@ const Stars = styled.div`
   background: linear-gradient(45deg, currentColor, transparent);
   border-radius: 50%;
   filter: drop-shadow(0 0 6px currentColor);
-  transform: translate3d(150em, 0, 0);
+  transform: translate3d(125em, 0, 0);
   -webkit-animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
           animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
 }

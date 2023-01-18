@@ -1,6 +1,6 @@
 import "./App.css";
 import FirstPage from "./components/FirstPage/FirstPage";
-import Projects from "./components/ProjectsPage/Projects";
+import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import styled from 'styled-components';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
     <Background>
       <FirstPage />
-      <Projects />
+      <ProjectsPage />
     </Background>
   );
 }
