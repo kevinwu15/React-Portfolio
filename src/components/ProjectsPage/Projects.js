@@ -20,7 +20,7 @@ const Projects = () => {
             name="Streats"
             type="Web App"
             desc="Displays user-added instances of food vendors on a map, made by a team of 4 at DeltaHacks IX"
-            techList={['Node.js', 'Express.js', 'Leaflet.js', 'PostgreSQL', 'Google Identity', 'Bootstrap', 'JavaScript']}
+            techList={['Node.js', 'Express.js', 'Leaflet.js', 'PostgreSQL', 'Google Identity API', 'Bootstrap', 'JavaScript']}
           />
         </div>
         <div class="col-md-auto">
@@ -29,7 +29,7 @@ const Projects = () => {
             name="TraQR"
             type="Android App"
             desc="Creates, scans, and stores item information by assigning a QR code to each item"
-            techList={['Java', 'Firebase mAuth', 'Firestore Database', 'XML', 'Android Studio', 'Adobe XD']}
+            techList={['Java', 'Firebase', 'XML', 'Android SDK', 'Android Studio', 'Adobe XD']}
           />
         </div>
         <div class="col-md-auto">
@@ -38,7 +38,7 @@ const Projects = () => {
             name="Personal Portfolio"
             type="Web Page"
             desc="Mobile-responsive portfolio website; the site you're currently on right now"
-            techList={['React.js', 'Netlify', 'styled-components', 'Bootstrap']}
+            techList={['React.js', 'Netlify', 'styled-components', 'Bootstrap', 'SCSS']}
           />
         </div>
         <div class="col-md-auto">

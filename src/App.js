@@ -10,6 +10,7 @@ function App() {
     color: white;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Sawarabi Gothic', sans-serif;
   `
 
   return (
