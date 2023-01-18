@@ -5,6 +5,8 @@ const ProjectPage = () => {
     const FlexPage = styled.div`
         display: flex;
         justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
     `
     const ColFlex = styled.div`
         display: flex;
@@ -12,11 +14,12 @@ const ProjectPage = () => {
         align-items: center;
     `
     const Title = styled.h1`
+        margin-top: 2%;
         margin-bottom: 2%;
     `
 
     return (
-        <FlexPage>
+        <FlexPage id='projects'>
             <ColFlex>
                 <Title>Projects</Title>
                 <Projects />

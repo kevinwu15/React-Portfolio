@@ -1,10 +1,6 @@
 import './Navbar.css';
 
 const Navbar = () => {
-//   const GrowDiv = styled.div`
-//   flex: 1;
-//   `
-
   return (
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
@@ -22,17 +18,17 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://www.google.com/">
+              <a class="nav-link active" aria-current="page" href="#projects">
                 Projects
               </a>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="https://www.google.com/">
                 Skills
               </a>
-            </li>
+            </li> */}
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://www.google.com/">
+              <a class="nav-link active" aria-current="page" href="#connect">
                 Connect
               </a>
             </li>

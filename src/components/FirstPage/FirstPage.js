@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 const Page = styled.div`
   height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
   background-image: radial-gradient(ellipse at bottom,#0d1d31 0%,#0c0d13 100%);
 `
 

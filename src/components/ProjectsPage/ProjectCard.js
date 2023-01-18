@@ -14,9 +14,16 @@ const ProjectCard = (props) => {
     }
     height: auto;
     border-style: solid;
+    border-width: 0.1rem;
     border-radius: 1rem;
     padding: 3%;
     height: 100%;
+    margin: auto;
+    :hover {
+      border-style: ridge;
+      border-color: #0dcaf0;
+      transform: translateY(-0.5rem);
+    }
   `;
 
   const CardBody = styled.div`
@@ -30,16 +37,30 @@ const ProjectCard = (props) => {
     flex-wrap: wrap;
   `
 
+  const LinkStyle = styled.svg`
+    float: right;
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+  `
+
   return (
     <Card>
       <CardBody class="card-body">
+        <a href={props.link} target="_blank" rel="noreferrer">
+          <LinkStyle xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+            <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+            <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+          </LinkStyle>
+        </a>
         <h5 class="card-title">{props.name}</h5>
+        <h6 class="card-subtitle mb-2 text-info">{props.type}</h6>
         <p class="card-text">{props.desc}</p>
         <TechWrapper>
           {props.techList.map((tech) => (
-            <a>
+            <div>
               <TechUsed name={tech} />
-            </a>
+            </div>
           ))}
         </TechWrapper>
       </CardBody>
