@@ -439,6 +439,7 @@ const StarSky = () => {
       <Stars />
       <Stars />
       <Stars />
+      {/* <Stars />
       <Stars />
       <Stars />
       <Stars />
@@ -464,8 +465,7 @@ const StarSky = () => {
       <Stars />
       <Stars />
       <Stars />
-      <Stars />
-      <Stars />
+      <Stars /> */}
     </Sky>
   );
 };

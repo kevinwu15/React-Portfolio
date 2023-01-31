@@ -28,7 +28,7 @@ const Icons = () => {
         <Icon src={linkedinLogo} alt="Linkedin Icon" />
       </a>
       <a
-        href="https://drive.google.com/file/d/1NEI_96gY8yhZN7j1hVKFZ1GZz4rxe8Hu/view?usp=share_link"
+        href="https://drive.google.com/file/d/1NfftFRZYhjr41u5zXhKZBUWqbxGAcJXR/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

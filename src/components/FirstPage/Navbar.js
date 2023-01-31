@@ -1,11 +1,19 @@
 import './Navbar.css';
+import styled from 'styled-components';
 
 const Navbar = () => {
+  const NavLink = styled.a`
+    color: white;
+    :hover {
+      color: #0dcaf0;
+    }
+  `
+
   return (
-    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
+    <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div className="container-fluid">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -13,24 +21,24 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#projects">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink className="nav-link" aria-current="page" href="#projects">
                 Projects
-              </a>
+              </NavLink>
             </li>
             {/* <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="https://www.google.com/">
                 Skills
               </a>
             </li> */}
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#connect">
+            <li className="nav-item">
+              <NavLink className="nav-link" aria-current="page" href="#connect">
                 Connect
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
