@@ -19,6 +19,7 @@ const WinnerCard = (props) => {
     padding: 3%;
     height: 100%;
     margin: auto;
+    transition: all 0.1s;
     :hover {
       border-style: ridge;
       border-color: #f59e0b;
@@ -42,6 +43,9 @@ const WinnerCard = (props) => {
     width: 100%;
     max-width: 30px;
     height: auto;
+    :hover {
+      fill: #f59e0b;
+    }
   `
 
   return (

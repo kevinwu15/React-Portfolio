@@ -18,6 +18,7 @@ const Card = styled.div`
   padding: 3%;
   height: 100%;
   margin: auto;
+  transition: all 0.1s;
   :hover {
     border-style: ridge;
     border-color: #0dcaf0;
@@ -41,6 +42,9 @@ const LinkStyle = styled.svg`
   width: 100%;
   max-width: 30px;
   height: auto;
+  :hover {
+    fill: #0dcaf0;
+  }
 `;
 
 const ProjectCard = (props) => {
