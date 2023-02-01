@@ -43,7 +43,6 @@ const Projects = () => {
               "PostgreSQL",
               "Google Identity API",
               "Bootstrap",
-              "EJS",
             ]}
           />
         </div>
