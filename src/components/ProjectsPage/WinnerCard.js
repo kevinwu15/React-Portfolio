@@ -48,6 +48,10 @@ const WinnerCard = (props) => {
     }
   `
 
+  const Desc = styled.p`
+    font-size: 0.9em;
+  `
+
   return (
     <Card>
       <CardBody className="card-body">
@@ -59,7 +63,7 @@ const WinnerCard = (props) => {
         </a>
         <h5 className="card-title">{props.name}</h5>
         <h6 className="card-subtitle mb-2 text-warning">{props.type}</h6>
-        <p className="card-text">{props.desc}</p>
+        <Desc className="card-text">{props.desc}</Desc>
         <TechWrapper>
           {props.techList.map((tech, index) => (
             <div key={index}>

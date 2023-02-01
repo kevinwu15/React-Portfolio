@@ -47,6 +47,11 @@ const LinkStyle = styled.svg`
   }
 `;
 
+const Desc = styled.p`
+  font-size: 0.9em;
+`
+
+
 const ProjectCard = (props) => {
   return (
     <Card>
@@ -66,7 +71,7 @@ const ProjectCard = (props) => {
         </a>
         <h5 className="card-title">{props.name}</h5>
         <h6 className="card-subtitle mb-2 text-info">{props.type}</h6>
-        <p className="card-text">{props.desc}</p>
+        <Desc className="card-text">{props.desc}</Desc>
         <TechWrapper>
           {props.techList.map((tech, index) => (
             <div key={index}>
