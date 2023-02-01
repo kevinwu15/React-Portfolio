@@ -74,6 +74,15 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            link="https://github.com/kevinwu15/AdventOfCode"
+            name="Advent of Code 2022"
+            type="Challenge"
+            desc="My first attempt of Advent of Code, where I completed the first 11 days"
+            techList={["Python"]}
+          />
+        </div>
+        <div className="col-md-auto">
+          <ProjectCard
             link="https://github.com/Geodude-hw9/server"
             name="Earthquake Webscraper"
             type="Script"
