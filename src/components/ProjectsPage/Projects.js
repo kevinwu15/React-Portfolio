@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-import WinnerCard from "./WinnerCard";
 import styled from "styled-components";
 
 const FlexDiv = styled.div`
@@ -15,7 +14,8 @@ const Projects = () => {
     <FlexDiv>
       <div className="row justify-content-md-center row-gap-4">
         <div className="col-md-auto">
-          <WinnerCard
+          <ProjectCard
+            colour="gold"
             link="https://devpost.com/software/sqlidify-10i4zl"
             name="SQLidify"
             type="McHacks 10 Winner- Cohere Challenge"
@@ -32,6 +32,7 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            colour="blue"
             link="https://devpost.com/software/streats"
             name="Streats"
             type="DeltaHacks IX Submission"
@@ -48,6 +49,7 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            colour="blue"
             link="https://github.com/rejieli/TraQR"
             name="TraQR"
             type="Android App"
@@ -64,6 +66,7 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            colour="blue"
             link="https://github.com/kevinwu15/react-portfolio"
             name="Personal Portfolio"
             type="Web Page"
@@ -73,6 +76,7 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            colour="blue"
             link="https://github.com/kevinwu15/AdventOfCode"
             name="Advent of Code 2022"
             type="Challenge"
@@ -82,6 +86,7 @@ const Projects = () => {
         </div>
         <div className="col-md-auto">
           <ProjectCard
+            colour="blue"
             link="https://github.com/Geodude-hw9/server"
             name="Earthquake Webscraper"
             type="Script"
