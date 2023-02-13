@@ -9,6 +9,7 @@ const StyledButton = styled.button`
   color: white;
   border: none;
   font-size: 0.875em;
+  cursor: default !important;
 `;
 
 const TechUsed = (props) => {

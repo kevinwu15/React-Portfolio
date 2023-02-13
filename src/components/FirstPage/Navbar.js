@@ -5,7 +5,8 @@ const Navbar = () => {
   const NavLink = styled.a`
     color: white;
     :hover {
-      color: #0dcaf0;
+      color: #7393B3
+      ;
     }
   `
 

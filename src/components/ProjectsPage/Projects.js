@@ -13,13 +13,35 @@ const Projects = () => {
   return (
     <FlexDiv>
       <div className="row justify-content-md-center row-gap-4">
+      <div className="col-md-auto">
+          <ProjectCard
+            colour="gold"
+            link="https://devpost.com/software/touchless-g72ten"
+            name="Touchless"
+            type="uOttaHack 5- 2nd Overall, 1st Place Phreesia Challenge, Best Accessbility Hack"
+            desc="When visiting a clinic, two big complaints that we have are the long wait times and the necessity to use a kiosk that thousands of other people have already touched. We also know that certain methods of filling in information are not accessible to everyone (For example, someone with Parkinsons disease writing with a pen). In response to these problems, we created Touchless, an accessible and contact-free solution using voice and touchless gestures to fill out forms."
+            techList={[
+              "Python",
+              "Selenium",
+              "OpenCV",
+              "Mediapipe",
+              "Speech-to-Text",
+              "Text-to-Speech",
+              "Flask",
+              "AWS",
+              "HTML",
+              "CSS",
+              "JavaScript",
+            ]}
+          />
+        </div>
         <div className="col-md-auto">
           <ProjectCard
             colour="gold"
             link="https://devpost.com/software/sqlidify-10i4zl"
             name="SQLidify"
-            type="McHacks 10 Winner- Cohere Challenge"
-            desc="SQLidify is an innovative machine learning powered solution to preventing SQL injection exploits in back-end code. SQLidify uses our own unique dataset/training model which consists of over 250 labelled data entries to identify SQL vulnerabilities in an application. To use it, simply paste your code into our website where our machine learning model will identify vulnerabilities in your back-end code, and then will suggest strategies to fix these issues."
+            type="McHacks 10- 2nd Place Cohere Challenge"
+            desc="SQLidify is an innovative machine learning powered solution to preventing SQL injection exploits in back-end code. SQLidify uses our own unique dataset and training model which consists of over 250 labelled data entries to identify SQL vulnerabilities in an application. To use it, simply paste your code into our website where our machine learning model will identify vulnerabilities in your back-end code, and then will suggest strategies to fix these issues."
             techList={[
               "Python",
               "Flask",
@@ -35,7 +57,7 @@ const Projects = () => {
             colour="blue"
             link="https://devpost.com/software/streats"
             name="Streats"
-            type="DeltaHacks IX Submission"
+            type="DeltaHacks IX"
             desc="Streats is a web app that allows people to find and share unique street food. Upon accessing the web app, users can view a map which displays markers where other users have found food vendors. Upon discovering a food vendor, users can add it to the map, sharing the type of vendor, food ethnicity, a brief description, and a rating. Upon clicking a marker on the map, the corresponding information will be displayed."
             techList={[
               "Node.js",
@@ -79,7 +101,7 @@ const Projects = () => {
             colour="blue"
             link="https://github.com/kevinwu15/AdventOfCode"
             name="Advent of Code 2022"
-            type="Challenge"
+            type="Coding Challenge"
             desc="My first attempt of Advent of Code, where I completed the first 11 days"
             techList={["Python"]}
           />
