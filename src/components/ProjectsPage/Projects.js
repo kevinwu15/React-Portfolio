@@ -25,13 +25,11 @@ const Projects = () => {
               "Selenium",
               "OpenCV",
               "Mediapipe",
-              "Speech-to-Text",
-              "Text-to-Speech",
               "Flask",
               "AWS",
-              "HTML",
-              "CSS",
+              "HTML/CSS",
               "JavaScript",
+              "SpeechRecognition",
             ]}
           />
         </div>
@@ -44,11 +42,11 @@ const Projects = () => {
             desc="SQLidify is an innovative machine learning powered solution to preventing SQL injection exploits in back-end code."
             techList={[
               "Python",
+              "React",
+              "Tailwind",
               "Flask",
               "co:here",
               "Google Colab",
-              "React.js",
-              "Tailwind CSS",
             ]}
           />
         </div>
@@ -61,11 +59,13 @@ const Projects = () => {
             desc="Streats is a web app that allows people to find and share unique street food."
             techList={[
               "Node.js",
-              "Express.js",
+              "Express",
               "Leaflet.js",
               "PostgreSQL",
               "Google Identity API",
+              "HTML/CSS",
               "Bootstrap",
+              "JavaScript",
             ]}
           />
         </div>
@@ -75,7 +75,7 @@ const Projects = () => {
             link="https://github.com/rejieli/TraQR"
             name="TraQR"
             type="Android App"
-            desc="TraQR is an Android app which allows physical items to be tracked through QR codes."
+            desc="TraQR is an app which allows physical items to be tracked through QR codes."
             techList={[
               "Java",
               "Firebase",
@@ -93,7 +93,7 @@ const Projects = () => {
             name="Personal Portfolio"
             type="Web Page"
             desc="Mobile-responsive portfolio website; the site you're currently on right now"
-            techList={["React.js", "Bootstrap", "styled-components", "Netlify"]}
+            techList={["React", "Bootstrap", "styled-components", "Netlify"]}
           />
         </div>
         <div className="col-md-auto">

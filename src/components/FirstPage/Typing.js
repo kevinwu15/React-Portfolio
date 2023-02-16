@@ -7,7 +7,7 @@ const Typing = () => {
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
-      strings: ["Carleton University", "Computer Science"],
+      strings: ["Computer Science @ Carleton University", "Incoming Intern Developer @ Kinaxis", "2x MLH Hackathon Winner"],
       typeSpeed: 40,
       showCursor: false,
       loop: true

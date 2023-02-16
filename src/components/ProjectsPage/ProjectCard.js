@@ -2,7 +2,7 @@ import styled from "styled-components";
 import TechUsed from "./TechUsed";
 
 const ProjectCard = (props) => {
-  const colorBank = {"gold":"#f59e0b", "blue":"#0dcaf0"}
+  const colorBank = {"gold":"#f59e0b", "blue":"#7393B3"}
   const colour = colorBank[props.colour];
 
   const Card = styled.div`
