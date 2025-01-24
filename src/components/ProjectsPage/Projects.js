@@ -16,9 +16,27 @@ const Projects = () => {
       <div className="col-md-auto">
           <ProjectCard
             colour="gold"
+            link="https://dorahacks.io/buidl/21809"
+            name="SilentGuard"
+            type="uOttaHack 7- Groq Challenge Winner, Best Use of Terraform"
+            desc="SilentGuard is generative AI voice responder that can mimic phone conversations in real time while listening for an emergency keyword."
+            techList={[
+              "Python",
+              "Flask",
+              "AWS Lambda",
+              "Groq",
+              "Solace PubSub+ Message Broker",
+              "React Native",
+              "TypeScript"
+            ]}
+          />
+        </div>
+      <div className="col-md-auto">
+          <ProjectCard
+            colour="gold"
             link="https://devpost.com/software/touchless-g72ten"
             name="Touchless"
-            type="uOttaHack 5- 2nd Overall, 1st Place Phreesia Challenge, Best Accessbility Hack"
+            type="uOttaHack 5- 2nd Overall, Phreesia Challenge Winner, Best Accessbility Hack"
             desc="Touchless is an accessible and contact-free solution for gathering form information by allowing users to interact with forms using their voice and gestures."
             techList={[
               "Python",
@@ -26,10 +44,8 @@ const Projects = () => {
               "OpenCV",
               "Mediapipe",
               "Flask",
-              "AWS",
               "HTML/CSS",
               "JavaScript",
-              "SpeechRecognition",
             ]}
           />
         </div>
@@ -38,7 +54,7 @@ const Projects = () => {
             colour="gold"
             link="https://devpost.com/software/sqlidify-10i4zl"
             name="SQLidify"
-            type="McHacks 10- 2nd Place Cohere Challenge"
+            type="McHacks 10- Cohere Challenge Winner"
             desc="SQLidify is an innovative machine learning powered solution to preventing SQL injection exploits in back-end code."
             techList={[
               "Python",
@@ -93,7 +109,7 @@ const Projects = () => {
             name="Personal Portfolio"
             type="Web Page"
             desc="Mobile-responsive portfolio website; the site you're currently on right now"
-            techList={["React", "Bootstrap", "styled-components", "Netlify"]}
+            techList={["React", "JavaScript", "styled-components", "Netlify"]}
           />
         </div>
         <div className="col-md-auto">
